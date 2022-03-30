@@ -3,9 +3,11 @@ package com.thoughtworks.codepairing.model;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//购物卡
 public class ShoppingCart {
     private List<Product> products;
     private Customer customer;
+
 
     public ShoppingCart(Customer customer, List<Product> products) {
         this.customer = customer;
